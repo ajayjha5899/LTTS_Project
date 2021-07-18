@@ -237,10 +237,5 @@ p-value: 6.684743293232503e-21
 * Importance of data patterns like seasonality and trend and how they affect the ARIMA model.
 * Augmented Dickey Fuller Test for stationarity.
 
-<<<<<<< HEAD
 ### [3.7] Future prospect
 Learning about other types of ARIMA models like Seasonal ARIMA model.
-=======
-### [2.7] Future prospect
-Learning about other types of ARIMA models like Seasonal ARIMA model.
->>>>>>> 74732626cd14349206873d4fc53fc483ec4d521d
