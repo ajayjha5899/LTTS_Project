@@ -208,7 +208,6 @@ p-value: 6.684743293232503e-21
 
 *  Since p-value for ADF is smaller than 0.05, hence data is stationary and d=0.
 
-
 #### 3.4.2. Finding order of MA parameter (q)
 *  Plotting autocorrelation to find q.
 *  There is considerable spike in first 3 lags, hence q=3.
