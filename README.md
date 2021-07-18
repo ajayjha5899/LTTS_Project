@@ -230,10 +230,10 @@ p-value: 6.684743293232503e-21
 
 ![Validation of ARIMA](./project3/valid.png)
 
-### [2.6] Key learnings
+### [3.6] Key learnings
 * Learnt about basics of ARIMA model and how statistical analysis works.
 * Importance of data patterns like seasonality and trend and how they affect the ARIMA model.
 * Augmented Dickey Fuller Test for stationarity.
 
-### [2.7] Future prospect
+### [3.7] Future prospect
 Learning about other types of ARIMA models like Seasonal ARIMA model.
