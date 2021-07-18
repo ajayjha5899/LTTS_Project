@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/018cfcd5ddf34f37b6f0f86271881d85)](https://www.codacy.com/gh/ajayjha5899/LTTS_Project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ajayjha5899/LTTS_Project&amp;utm_campaign=Badge_Grade)
+
 # LTTS Mini Project Report
 
 ## [1] Predicting the Survival of Titanic Passengers
@@ -235,5 +237,10 @@ p-value: 6.684743293232503e-21
 * Importance of data patterns like seasonality and trend and how they affect the ARIMA model.
 * Augmented Dickey Fuller Test for stationarity.
 
+<<<<<<< HEAD
 ### [3.7] Future prospect
 Learning about other types of ARIMA models like Seasonal ARIMA model.
+=======
+### [2.7] Future prospect
+Learning about other types of ARIMA models like Seasonal ARIMA model.
+>>>>>>> 74732626cd14349206873d4fc53fc483ec4d521d
