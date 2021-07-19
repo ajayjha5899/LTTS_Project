@@ -30,34 +30,34 @@ Visualizing the dataset helps in better understanding of the data in hand and al
 #### 1.2.1. How many people survived
 *  Unfortunately, majority of the people didn't survive the Titanic accident.
 
-![Survival Count](./project1/survival_count.png)
+![Survival Count](./survival_count.png)
 
 #### 1.2.2. Survival based on "Pclass"
 *  Majority of the people from class1 survived.
 *  Almost half of people from class2 survived.
 *  Majority of the people from class3 did not survive.
 
-![Survival Count](./project1/survival_pclass.png)
+![Survival Count](./survival_pclass.png)
 
 #### 1.2.3. Survival based on "Sex"
 *  Lesser proportion of males were able to survive the accident.
 *  Greater proportion of females were able to survive the accident.
 
-![Survival Count](./project1/survival_sex.png)
+![Survival Count](./survival_sex.png)
 
 #### 1.2.4. Survival based on "Age"
 *  Majority of passengers were between 20-40 years of age.
 *  Most of the infants (0-5 year olds) were able to survive.
 *  Many young adults (20-30 year olds) were not able to survive.
 
-![Survival Count](./project1/survival_age.png)
+![Survival Count](./survival_age.png)
 
 #### 1.2.5. Survival based on "Fare"
 *  Most of the passengers were took low-fare tickets.
 *  Greater proportion of mid and high-fare ticket passengers were able to survive.
 *  Lesser proportion of low-fare ticket passengers were able to survive.
 
-![Survival Count](./project1/survival_fare.png)
+![Survival Count](./survival_fare.png)
 
 ### 1.3. Data Pre-processing
 Pre-processing data means removing unwanted attributes from the dataset, filling missing values or removing the tuples with missing values, etc. It overall makes the data useful for the problem or usecase in hand.
@@ -70,7 +70,7 @@ Pre-processing data means removing unwanted attributes from the dataset, filling
 #### 1.3.2. Filling NaN values
 *  Used a distribution plot to have an intuition about skewness of the data to make the decision whether to fill NaN value with mean/median/mode.
 
-![Age Distribution plot](./project1/dist_age.png)
+![Age Distribution plot](./dist_age.png)
 
 #### 1.3.3. Replacing characters and strings with numerical data
 *  Machine learning models operate only in numerical data. Hence it is important to map any string/character type data to some numerical value.
@@ -86,7 +86,7 @@ After preparation of the dataset, the final step is to build our machine learnin
 ### 1.5. Submission and assessment score
 On submitting the predicted values for the [challenge](https://www.kaggle.com/c/titanic), the following score was achieved.
 
-![Submission score](./project1/submission1.png)
+![Submission score](./submission1.png)
 
 ### 1.6. Key learnings
 *  Learnt about basics of Random Forest Classifier and decision trees.

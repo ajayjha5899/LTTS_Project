@@ -15,7 +15,7 @@ Visualizing the dataset helps in better understanding of the data in hand and al
 *  Reshaping flattened pixel values into a 28x28 matrix.
 *  Plotting the first 5 images along with the digit label as plot title.
 
-![Digits](./project2/digits.png)
+![Digits](./digits.png)
 
 ### 2.3. Data Pre-processing
 Pre-processing data means removing unwanted attributes from the dataset, filling missing values or removing the tuples with missing values, etc. It overall makes the data useful for the problem or usecase in hand.
@@ -45,7 +45,7 @@ After preparation of the dataset, the final step is to build our machine learnin
 ### 2.5. Submission and assessment score
 On submitting the predicted values for the [challenge](https://www.kaggle.com/c/titanic), the following score was achieved.
 
-![Submission score](./project2/submission1.png)
+![Submission score](./submission1.png)
 
 ### 2.6. Key learnings
 *  Learnt about basics of neural networks and how they work.

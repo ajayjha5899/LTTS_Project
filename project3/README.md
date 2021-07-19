@@ -21,7 +21,8 @@ Visualizing the dataset helps in better understanding of the data in hand and al
 #### 3.3.1. Plotting the time series 
 *  Following plot shows variation of *"WtdAvgPrice"* with *"TradeDate"*.
 
-![Time Series](./project3/timeseries.png)
+![Time Series](./timeseries.png)
+
 
 ### 3.4. Time series analysis and finding ARIMA parameters (p,d,q)
 AutoRegressive Integrated Rolling Avergae (ARIMA) model is based on 3 parameters. The one based on AR (p), one based on MA (q) and one based on stationarity of the time series (d).
@@ -31,7 +32,8 @@ AutoRegressive Integrated Rolling Avergae (ARIMA) model is based on 3 parameters
 *  For stationary data, d=0.
 *  Plotting mean and std dev, and conducting Augmented Dickey Fuller Test may help in determining value of d.
 
-![Mean and Standard Deviation](./project3/meanstddev.png)
+![Mean and Standard Deviation](./meanstddev.png)
+
 
 *  Apart from a few spikes, data shows somewhat random mean and constant standard deviation.
 
@@ -44,24 +46,24 @@ p-value: 6.684743293232503e-21
 *  Plotting autocorrelation to find q.
 *  There is considerable spike in first 3 lags, hence q=3.
 
-![Auto Correlation](./project3/ac.png)
+![Auto Correlation](./ac.png)
 
 #### 3.4.3. Finding order of AR parameter (p)
 *  Plotting partial-autocorrelation to find q.
 *  There is considerable spike in first 2 lags, hence p=2.
 
-![Auto Correlation](./project3/pac.png)
+![Auto Correlation](./pac.png)
 
 ### 3.5. Building and validating ARIMA model
 *  The model was framed with (p,d,q) as (2,0,3).
 *  Checking for residual to have seasonal or trend behaviour.
 
-![Residual Plot](./project3/resid.png)
+![Residual Plot](./resid.png)
 
 *  Density plot shows near 0 mean and uniform variance, thus, there is no pattern of seasonality or trend inresiduals.
 *  Validating the model for further correctness using training and testing sets. Here, the value of 'd'parameter had to be changed to 2 due to the values being very far-off from the actual ones.
 
-![Validation of ARIMA](./project3/valid.png)
+![Validation of ARIMA](./valid.png)
 
 ### 3.6. Key learnings
 *  Learnt about basics of ARIMA model and how statistical analysis works.
